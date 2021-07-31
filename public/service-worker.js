@@ -6,11 +6,12 @@ const DATA_CACHE_NAME = "data-cache-v1";
 const FILES_TO_CACHE = [
     "/",
     "/index.html",
+    "/db.js",
     "/manifest.webmanifest",
-    "/assets/css/style.css",
-    "/assets/js/loadImages.js",
-    "/assets/images/icons/icon-72x72.png",
-    "/assets/images/icons/icon-96x96.png",
+    "/assets/css/styles.css",
+    "/assets/js/index.js",
+    "/assets/icons/icon-192x192.png",
+    "/assets/icons/icon-512x512.png",
 ];
 
 // install
