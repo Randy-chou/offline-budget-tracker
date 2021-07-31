@@ -1,13 +1,13 @@
 # offline-budget-tracker
 ## Description
-Workout Tracker utilizes Mongodb to maintain a serverside database of workouts that are sent to a front end application that allows you to display past workouts and add exercises to new workouts. As a project, Workout Tracker was a demonstration of using the Mongo database framework for webdevelopment.
+Budget Tracker is a Progressive Web Application utilizes Mongodb to maintain a serverside database of monetary transactions that are sent to a front end application that allows you to display your financial history. A service worker, web manifest, and caching was used to implement offline functionality. As a project, Budget Tracker was a demonstration of converting an application to a PWA.
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-Deployed Link: https://powerful-wave-98733.herokuapp.com/
+Deployed Link: https://intense-dusk-28931.herokuapp.com/
 ## Usage
 Screenshots:
 ![alt text](assets/home.png)
@@ -16,7 +16,7 @@ https://github.com/Randy-chou
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Features
-From a user perspective, Workout Tracker allows for the viewing of a current workout. It also allows you to add cardio or resistance exercises to a current workout. Once a workout is completed, you can start a new workout to add exercises too. Workouts are stored serverside and users can visit a dashboard to view weight and duraiton statistics about the past seven workouts.
+Budget tracker allows you to input and display past financial data. If internet connection is lost, users can continue to use the app. Any data entered while offline is uploaded to the online database upon regaining internet connection.
 ## How to Contribute
 N/A
 ## Tests
